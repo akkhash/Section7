@@ -1,0 +1,45 @@
+.parent{
+    background-color: aqua;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 10% 80%;
+    grid-template-columns: 33% 33% 34%;
+}
+.header{
+    background: linear-gradient(to right,
+                        #8c00ff, #add8e6);
+    color: rgb(255, 255, 255);
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.search{
+    background: linear-gradient(to right,
+                        #007CBE, #FFF7AE);
+    color: azure;
+    font-size: larger;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.left {
+    background: linear-gradient(to right,
+                        #D09192, #C82471);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.middle{
+    background: linear-gradient(to right,
+                        #0C0931, #1c1856, #e80074, #c200db, #00cfe5);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    
+}
+.right{
+    background: linear-gradient(to right,
+                        #9C6DB0, #233A4E);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    
+}
